@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Checkout — L.A. GIRL Cosmetics Ghana</title>
+<meta name="description" content="Enter your delivery details for your L.A. GIRL Cosmetics Ghana order.">
+<link rel="icon" href="assets/badge.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Allura&family=Cormorant+Garamond:wght@500;600&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/store.css">
+<script src="assets/store-shell.js" defer></script>
+<script src="assets/store.js" defer></script>
+</head>
+<body class="store-page">
+<div data-store-header></div>
+<main class="store-main">
+<header class="page-heading"><span class="page-eyebrow">Almost glowing</span><h1>Checkout</h1><p>Enter your delivery details. Payment and order submission will be connected when the backend is ready.</p></header>
+<div class="checkout-layout">
+<form class="checkout-form" data-checkout-form>
+<h2>Delivery details</h2>
+<div class="form-grid">
+<div class="form-field"><label for="full-name">Full name</label><input id="full-name" name="name" autocomplete="name" required></div>
+<div class="form-field"><label for="phone">Phone number</label><input id="phone" name="phone" type="tel" autocomplete="tel" required></div>
+<div class="form-field wide"><label for="email">Email address</label><input id="email" name="email" type="email" autocomplete="email" required></div>
+<div class="form-field wide"><label for="address">Delivery address</label><textarea id="address" name="address" autocomplete="street-address" required></textarea></div>
+<div class="form-field"><label for="city">City / town</label><input id="city" name="city" autocomplete="address-level2" required></div>
+<div class="form-field"><label for="region">Region</label><select id="region" name="region" required><option value="">Select a region</option><option>Greater Accra</option><option>Ashanti</option><option>Central</option><option>Eastern</option><option>Western</option><option>Other</option></select></div>
+</div>
+<button class="store-button" type="submit">Continue</button><p class="form-note" data-checkout-note role="status"></p>
+</form>
+<aside class="checkout-summary"><h2>Order summary</h2><ul data-checkout-items></ul><div class="cart-total"><span>Subtotal</span><strong data-checkout-total>GH₵ 0</strong></div><p>Delivery is calculated at checkout.</p><a href="cart.html">Edit your bag</a></aside>
+</div>
+</main>
+<div data-store-footer></div>
+</body>
+</html>
