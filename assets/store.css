@@ -142,6 +142,10 @@
 .store-page footer .btn{background:linear-gradient(135deg,var(--pink),var(--pink-d))}
 .store-page .fg details summary{list-style:none;color:var(--blush);font:700 .9rem var(--sans);margin-bottom:14px}
 .store-page .fg details summary::-webkit-details-marker{display:none}
+.store-page footer ul.hours{gap:8px;font-size:.78rem}
+.store-page footer ul.hours li{display:flex;justify-content:space-between;gap:12px}
+.store-page footer ul.hours li:nth-child(-n+2){display:block;line-height:1.55}
+.store-page footer ul.hours li span:last-child{text-align:right;white-space:nowrap}
 .store-page footer .logo{margin-bottom:6px}.store-page footer .logo img{width:56px;height:56px;border-radius:18px}.store-page footer .logo b{font-size:2rem}.store-page footer .logo small{font-size:.88rem}
 .store-page .tag{font:1.7rem/1.2 "Allura",cursive;color:var(--blush);margin-top:10px}
 .store-page .soc{display:flex;gap:10px;margin-top:20px}
